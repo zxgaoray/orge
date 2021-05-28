@@ -55,6 +55,7 @@ export default {
             // material to mesh
             cmesh.material = vmaterial
             this.primitives[0].isVisible = false
+            cmesh.showBoundingBox = true
         }
     }
 }
