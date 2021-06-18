@@ -39,6 +39,13 @@ export default {
             window.addEventListener('resize', () => {
                 engine.resize()
             })
+            window.addEventListener('mousewheel', () => {
+                console.log(camera.position)
+                console.log(camera.fov)
+                console.log(camera.upVector)
+                console.log(camera.minZ)
+                console.log(camera.maxZ)
+            })
         },
         addMesh () {
             // mesh
